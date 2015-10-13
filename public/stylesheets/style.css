@@ -1,12 +1,12 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
 
-.body {
+.pure-g {
   background-image: url(/images/venezia-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
