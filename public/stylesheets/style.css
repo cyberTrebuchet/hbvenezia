@@ -28,3 +28,12 @@ header > p {
   position: relative;
   margin: auto;
 }
+
+#meet-me-img {
+  width: 33%;
+  margin-top: 7em;
+}
+
+#doorway-img {
+  display: none;
+}
