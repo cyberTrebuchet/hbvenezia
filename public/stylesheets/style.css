@@ -32,6 +32,7 @@ header > p {
 #meet-me-img {
   width: 33%;
   margin-top: 7em;
+  -vendor-animation-duration: 4s;
 }
 
 #doorway-img {
