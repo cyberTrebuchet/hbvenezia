@@ -10,14 +10,8 @@ $(function(){
   });
 
   $('#meet-me-img').click(function(){
-    $('#meet-me-img').fadeOut(2000, function(){
-      $('#doorway-img').fadeIn(2000);
+    $('#meet-me-img').fadeOut(1000, function(){
+      $('#main').fadeIn(2000)
     });
   });
-
-  $('#doorway-img').click(function(){
-    $('#welcome').fadeOut(1000, function(){
-      $('#main').fadeIn(1000)
-    })
-  })
 });
