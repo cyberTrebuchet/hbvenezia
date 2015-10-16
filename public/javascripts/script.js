@@ -3,9 +3,9 @@
 $(function(){
   console.log('script.js linked!');
 
-  $('#meet-me-img').hover(function(e){
+  $('#meet-me-img').hover(function(){
     $('#meet-me-img').toggleClass('swing');
-  }, function(e){
+  }, function(){
     $('#meet-me-img').toggleClass('swing');
   });
 
@@ -14,4 +14,10 @@ $(function(){
       $('#doorway-img').fadeIn(2000);
     });
   });
+
+  $('#doorway-img').click(function(){
+    $('#welcome').fadeOut(1000, function(){
+      $('#main').fadeIn(1000)
+    })
+  })
 });
