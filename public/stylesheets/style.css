@@ -32,6 +32,13 @@ header > p {
   height: 100em;
 }
 
+#fb-ads {
+  float: right;
+  width: 12em;
+  height: 100em;
+  background-color: white;
+}
+
 #frontdoor {
   float: left;
   height: 16em;
