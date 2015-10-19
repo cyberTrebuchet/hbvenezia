@@ -5,7 +5,7 @@ a {
 body {
   text-align: center;
   font-family: Garamond;
-  background-color: lightcyan;
+  background-color: blanchedalmond;
   background-image: url(/images/venezia-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  padding: 2em;
+  padding: 1em;
 }
 
 header > h1 {
@@ -26,14 +26,14 @@ header > p {
 }
 
 #content {
-  background-color: blanchedalmond;
+  background-color: aliceblue;
   margin: auto;
-  padding: 2em;
-  border-radius: 0.5em;
+  width: 948px;
+  height: 100em;
 }
 
 #frontdoor {
   float: left;
   height: 16em;
-  border-radius: 0.5em;
+  margin: 1em;
 }
