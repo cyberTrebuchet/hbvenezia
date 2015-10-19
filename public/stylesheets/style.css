@@ -25,29 +25,6 @@ header > p {
   font-family: "Courier New", courier, monospace;
 }
 
-.pure-img {
-  position: relative;
-  margin: auto;
-}
-
-#meet-me-img {
-  width: 33%;
-  margin-top: 7em;
-}
-
-#doorway-img {
-  display: none;
-}
-
-#main {
-  display: none;
-}
-
-.top-photos {
-  display: inline;
-  height: 16em;
-}
-
 #content {
   background-color: blanchedalmond;
   margin: auto;
