@@ -1,28 +1,16 @@
 a {
   color: #00B7FF;
+  text-decoration: none;
 }
 
 body {
   text-align: center;
-  font-family: Garamond;
+  font-family: Helvetica, sans-serif;
   background-color: blanchedalmond;
   background-image: url(/images/venezia-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-header {
-  padding: 1em;
-}
-
-header > h1 {
-  font-family: "Courier New", courier, monospace;
-  font-weight: normal;
-}
-
-header > p {
-  font-family: "Courier New", courier, monospace;
 }
 
 #content {
@@ -39,8 +27,32 @@ header > p {
   background-color: white;
 }
 
+.dotline {
+  position: relative;
+  left: -6em;
+}
+
 #frontdoor {
   float: left;
   height: 16em;
   margin: 1em;
+}
+
+#info {
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.attr {
+  text-align: right;
+}
+
+.value {
+  padding-left: 1em;
+  text-align: left;
+}
+
+.break {
+  height: 1em;
 }
