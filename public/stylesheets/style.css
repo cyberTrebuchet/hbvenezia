@@ -5,7 +5,7 @@ a {
 
 body {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: TrebuchetMS, Helvetica, sans-serif;
   background-color: blanchedalmond;
   background-image: url(/images/venezia-background.jpg);
   background-size: 100%;
@@ -22,26 +22,34 @@ body {
 
 #fb-ads {
   float: right;
-  width: 12em;
+  width: 11em;
   height: 100em;
   background-color: white;
+}
+
+#facebook {
+  position: relative;
+  top: 1em;
 }
 
 .dotline {
   position: relative;
   left: -6em;
+  margin-bottom: 5px;
 }
 
 #frontdoor {
+  display: inline-block;
   float: left;
   height: 16em;
   margin: 1em;
 }
 
 #info {
-  margin: auto;
+  display: inline-block;
   font-size: 14px;
   font-weight: bold;
+  float: center;
 }
 
 .attr {
@@ -55,4 +63,30 @@ body {
 
 .break {
   height: 1em;
+}
+
+#tour {
+  margin-right: 1em;
+  display: inline-block;
+  background-image: url(/images/bar-bg.jpg);
+  float: right;
+  width: 14em;
+  height: 16em;
+}
+
+ul {
+  list-style-image: url(/images/bullet.gif);
+  text-align: left;
+  color: white;
+  position: relative;
+  left: -7px;
+}
+
+li {
+  padding-bottom: 7px;
+  text-shadow: 2px 2px black;
+}
+
+li:hover {
+  font-weight: bold;
 }
