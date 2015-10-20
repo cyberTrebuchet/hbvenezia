@@ -26,6 +26,7 @@ a {
 }
 
 #content {
+  border: 1px solid black;
   background-color: aliceblue;
   margin: auto;
   width: 948px;
@@ -33,6 +34,7 @@ a {
 }
 
 #fb-ads {
+  border-left: 1px solid black;
   float: right;
   width: 11em;
   height: 100em;
