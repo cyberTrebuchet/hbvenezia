@@ -1,6 +1,8 @@
 extends layout
 
 block content
+  audio(preload='none')
+
   section#tour-modal
     img#modal-img
     br
@@ -17,7 +19,8 @@ block content
 
       article#main
         img(src='/images/dotline.gif').dotline
-        img(src='https://2.bp.blogspot.com/-YUnNK45mCXQ/U3Sg3FZBLuI/AAAAAAAAQg0/AiSwz06VJ3M/s1600/DSC00662.jpg')#frontdoor
+        a(href='/audio/welcome.mp4').audio
+          img(src='https://2.bp.blogspot.com/-YUnNK45mCXQ/U3Sg3FZBLuI/AAAAAAAAQg0/AiSwz06VJ3M/s1600/DSC00662.jpg')#frontdoor
         table#info
           tr
             td.attr Address:
@@ -52,20 +55,23 @@ block content
             li
               a(href='/images/arrigo-harrys.jpg').tour THE BAR COUNTER
             li
-              a THE BELLINI
+              a(href='/images/bellinitext.gif').tour THE BELLINI
             li
-              a THE TABLES
+              a(href='/images/table.gif').tour THE TABLES
             li
-              a THE SILVERWARE
+              a(href='/audio/silverware.WAV').audio THE SILVERWARE
+              img(src='/images/audio.gif')
             li
-              a THE TABLECLOTH
+              a(href='/images/tablecloth.gif').tour THE TABLECLOTH
             li
-              a THE PLATES
+              a(href='/audio/plate.WAV').audio THE PLATES
+              img(src='/images/audio.gif')
             li
-              a THE GLASSWARE
+              a(href='/images/glass.gif').tour THE GLASSWARE
             li
-              a MEET ARRIGO CIPRIANI
+              a(href='/images/meetarrigo.jpg').tour MEET ARRIGO CIPRIANI
             li
-              a LISTEN TO THE MENU
+              a(href='/audio/menu.WAV').audio LISTEN TO THE MENU
+              img(src='/images/audio.gif')
 
         img(src='/images/dotline.gif').dotline

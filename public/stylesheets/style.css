@@ -14,13 +14,13 @@ a {
 }
 
 #tour-modal {
-  padding-top: 10em;
+  padding-top: 8em;
   position: fixed;
   left: 0em;
   top: 0em;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   z-index: 1;
   display: none;
 }
@@ -100,6 +100,11 @@ li {
 
 li > a {
   color: white;
+}
+
+li > img {
+  height: 1em;
+  margin-left: 0.5em;
 }
 
 li:hover {
