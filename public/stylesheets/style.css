@@ -39,6 +39,7 @@ a:hover {
   background-color: aliceblue;
   margin: auto;
   width: 946px;
+  padding-bottom: 2em;
 }
 
 #fb-ads {
@@ -46,7 +47,7 @@ a:hover {
   border-bottom: 1px solid black;
   float: right;
   width: 11em;
-  height: 100em;
+  height: 240em;
   background-color: white;
 }
 
@@ -130,4 +131,14 @@ p {
   text-align: left;
   margin-left: 2em;
   margin-right: 12em;
+}
+
+.inline-img {
+  float: right;
+}
+
+.left {
+  float: left;
+  margin: 1em 1em 1em 2em;
+  height: 20em;
 }
