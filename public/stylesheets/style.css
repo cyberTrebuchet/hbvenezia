@@ -119,6 +119,10 @@ li > a {
   color: white;
 }
 
+li > a:hover {
+  color: white;
+}
+
 li:hover {
   font-weight: bold;
 }
