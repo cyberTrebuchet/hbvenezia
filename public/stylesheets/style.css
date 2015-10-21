@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'TrebuchetMS', Helvetica, sans-serif;
+  font-family: 'TrebuchetMS', Trebuchet, Helvetica, sans-serif;
   background-color: blanchedalmond;
   background-image: url(/images/venezia-background.jpg);
   background-size: 100%;
@@ -84,7 +84,7 @@ a {
   display: inline-block;
   background-image: url(/images/bar-bg.jpg);
   float: right;
-  width: 14em;
+  width: 15em;
   height: 16em;
 }
 
