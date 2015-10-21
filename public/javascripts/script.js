@@ -5,8 +5,6 @@ $(function(){
 
   $('.tour').on('click', function(e){
     e.preventDefault();
-    console.log(this.href);
-
     $('#modal-img').attr('src', this.href);
     $('#tour-modal').fadeIn(1000);
   });
@@ -17,7 +15,6 @@ $(function(){
 
   $('.audio').on('click', function(e){
     e.preventDefault();
-    console.log(this.href);
     $('audio')
       .empty()
       .append($('<source>').attr('src', this.href))
