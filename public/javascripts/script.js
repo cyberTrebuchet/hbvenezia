@@ -21,9 +21,16 @@ $(function(){
 
     if ($('source')[0]) {
       if ($('source')[0].src === e.target.href) {
-        $('audio').trigger('pause');
+        console.log($('audio').paused)
+        if ($('audio').paused) {
+          $('audio').trigger('play');
+        } else {
+          $('audio').trigger('pause');
+        }
       } else {
-        $('audio').remove();
+        $('audio')
+        .trigger('pause')
+        .remove();
         $('<audio>')
         .append($('<source>').attr('src', this.href))
         .prependTo($('body'))
