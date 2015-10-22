@@ -15,9 +15,24 @@ $(function(){
 
   $('.audio').on('click', function(e){
     e.preventDefault();
-    $('audio')
-      .empty()
+
+    console.log(e.target.href);
+    console.log($('source')[0]);
+
+    if ($('source')[0]) {
+      if ($('source')[0].src === e.target.href) {
+        $('audio').trigger('pause');
+      } else {
+        $('audio').remove();
+        $('<audio>')
+        .append($('<source>').attr('src', this.href))
+        .prependTo($('body'))
+        .trigger('play');
+      }
+    } else {
+      $('audio')
       .append($('<source>').attr('src', this.href))
       .trigger('play');
+    }
   });
 });
