@@ -21,8 +21,8 @@ $(function(){
 
     if ($('source')[0]) {
       if ($('source')[0].src === e.target.href) {
-        console.log($('audio').paused)
-        if ($('audio').paused) {
+        console.log($('audio')[0].paused)
+        if ($('audio')[0].paused) {
           $('audio').trigger('play');
         } else {
           $('audio').trigger('pause');
