@@ -132,17 +132,26 @@ li:hover {
 }
 
 p {
+  font-size: 18px;
   text-align: left;
   margin-left: 2em;
-  margin-right: 12em;
+  margin-right: 2em;
 }
 
 .inline-img {
   float: right;
+  max-height: 12em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .left {
   float: left;
   margin: 1em 1em 1em 2em;
   height: 20em;
+}
+
+#graham {
+  float: left;
+  margin: 1em 1em 1em 2em;
 }
