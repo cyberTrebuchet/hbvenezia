@@ -13,7 +13,22 @@ html
 
   // the actual webpage  
   body
-    block content
+    audio(preload='none')
+
+    section#tour-modal
+      img#modal-img
+      br
+      a(href='#') (click anywhere to close)
+
+    img(src='/images/harrysbanner.png')#banner
+
+    section#content
+      article#fb-ads
+        a(href='https://www.facebook.com/harrysbarvenezia')#facebook
+          img(src='/images/facebookbadge.gif')
+
+      article#main
+        block content
 
     // client-side scripts
     script(src='https://code.jquery.com/jquery-2.1.4.min.js')

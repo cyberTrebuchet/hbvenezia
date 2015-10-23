@@ -1,4 +1,6 @@
-"use strict";
+'use strict';
+
+#!/usr/bin/env node
 
 /**
  * Module dependencies.
