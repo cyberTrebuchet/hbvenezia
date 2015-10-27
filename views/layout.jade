@@ -8,6 +8,16 @@ html
 
     meta(name='viewport', content='width=device-width, initial-scale=1')
 
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css')
+
+    // purecss responsive grids
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
     // other stylesheets
     link(rel='stylesheet', href='/stylesheets/style.css')
 
@@ -18,7 +28,7 @@ html
     section#tour-modal
       img#modal-img
       br
-      a(href='#') (click anywhere to close)
+      a (click anywhere to close)
 
     img(src='/images/harrysbanner.png')#banner
 

@@ -3,6 +3,8 @@
 $(function(){
   console.log('script.js linked!');
 
+  $('a').attr('target', '_blank');
+
   $('.tour').on('click', function(e){
     e.preventDefault();
     $('#modal-img').attr('src', this.href);
