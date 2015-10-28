@@ -23,6 +23,7 @@ footer {
 a {
   color: #00B7FF;
   text-decoration: none;
+  text-align: left;
 }
 
 a:hover {
@@ -59,7 +60,7 @@ a:hover {
   border-bottom: 1px solid black;
   float: right;
   width: 11em;
-  height: 260em;
+  padding-bottom: 0.5em;
   background-color: white;
 }
 
@@ -143,6 +144,11 @@ li:hover {
   font-weight: bold;
 }
 
+#reviews {
+  text-align: left;
+  position: relative;
+}
+
 .title {
   color: firebrick;
 }
@@ -151,7 +157,7 @@ p {
   font-family: arial;
   font-size: 18px;
   text-align: left;
-  margin-left: 2em;
+  margin-left: 16em;
   margin-right: 2em;
 }
 
