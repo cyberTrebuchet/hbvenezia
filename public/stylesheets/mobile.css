@@ -3,5 +3,5 @@
 }
 
 #modal-img {
-  max-height: 90%;
+  max-height: fill-available;
 }
