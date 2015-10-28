@@ -18,17 +18,19 @@ html
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
 
-    // other stylesheets
+    // custom stylesheets
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/mobile.css', media='(max-width: 567px) and (orientation: landscape)')
 
   // the actual webpage  
   body
     audio(preload='none')
 
-    section#tour-modal
-      img#modal-img
-      br
-      a (click anywhere to close)
+    section.pure-g#tour-modal
+      article.pure-u-1
+        img#modal-img
+        br
+        a (click anywhere to close)
 
     img(src='/images/harrysbanner.png')#banner
 
