@@ -144,11 +144,6 @@ li:hover {
   font-weight: bold;
 }
 
-#reviews {
-  text-align: left;
-  position: relative;
-}
-
 .title {
   color: firebrick;
 }
@@ -181,4 +176,8 @@ p {
 #graham {
   float: left;
   margin: 1em 1em 1em 2em;
+}
+
+#privacy > p {
+  margin-left: 2em;
 }
