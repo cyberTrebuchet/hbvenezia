@@ -1,3 +1,9 @@
 #tour-modal {
   padding-top: 0em;
 }
+
+#modal-img {
+  position: relative;
+  margin-bottom: 10%;
+  height: 90%;
+}
