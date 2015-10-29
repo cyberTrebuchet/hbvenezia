@@ -75,6 +75,7 @@ a:hover {
 
 .dotline {
   position: relative;
+  left: -7em;
   margin-bottom: 0.5em;
 }
 
