@@ -174,7 +174,12 @@ p {
 
 #graham {
   float: left;
-  margin: 1em 1em 1em 2em;
+  margin: 0em 1em 1em 0em;
+}
+
+#graham-ad {
+  float: left;
+  margin: 2em 1em 1em 4em;
 }
 
 #privacy > p {
