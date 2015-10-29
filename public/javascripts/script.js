@@ -3,7 +3,7 @@
 $(function(){
   console.log('script.js linked!');
 
-  $('a').attr('target', '_blank');
+  $('a').not($('.top')).attr('target', '_blank');
 
   $('.tour').on('click', function(e){
     e.preventDefault();
