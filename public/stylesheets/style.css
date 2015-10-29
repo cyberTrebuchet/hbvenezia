@@ -173,14 +173,19 @@ p {
   text-align: center;
 }
 
+#reflections-left {
+  padding: 2.5em;
+  float: left;
+}
+
+#graham-front {
+  height: 20em;
+}
+
 #graham {
   float: left;
   margin: 0em 1em 1em 0em;
-}
-
-#graham-ad {
-  float: left;
-  margin: 2em 1em 1em 4em;
+  height: 8em;
 }
 
 #privacy > p {
