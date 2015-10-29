@@ -21,7 +21,7 @@ footer {
 }
 
 a {
-  color: #00B7FF;
+  color: #0067ee;
   text-decoration: none;
   text-align: left;
 }
@@ -49,7 +49,7 @@ a:hover {
 
 #content {
   border: 1px solid black;
-  background-color: aliceblue;
+  background-color: #e9f7f3;
   margin: auto;
   width: 946px;
   padding-bottom: 2em;
@@ -75,8 +75,7 @@ a:hover {
 
 .dotline {
   position: relative;
-  left: -7em;
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
 }
 
 #frontdoor {
