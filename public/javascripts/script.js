@@ -18,12 +18,11 @@ $(function(){
   $('.audio').on('click', function(e){
     e.preventDefault();
 
-    console.log(e.target.href);
-    console.log($('source')[0]);
+    console.log(this.href);
+    console.log($('source')[0], $('source')[1]);
 
     if ($('source')[0]) {
-      if ($('source')[0].src === e.target.href) {
-        console.log($('audio')[0].paused)
+      if ($('source')[0].src === this.href) {
         if ($('audio')[0].paused) {
           $('audio').trigger('play');
         } else {
@@ -35,12 +34,14 @@ $(function(){
         .remove();
         $('<audio>')
         .append($('<source>').attr('src', this.href))
+        .append($('<source>').attr('src', this.href.slice(0, -3) + 'mp3'))
         .prependTo($('body'))
         .trigger('play');
       }
     } else {
       $('audio')
       .append($('<source>').attr('src', this.href))
+      .append($('<source>').attr('src', this.href.slice(0, -3) + 'mp3'))
       .trigger('play');
     }
   });
