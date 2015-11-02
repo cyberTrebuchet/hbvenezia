@@ -150,6 +150,10 @@ li:hover {
   left: -7em;
 }
 
+#story-title {
+  font-size: 20px
+}
+
 .title {
   color: firebrick;
 }
