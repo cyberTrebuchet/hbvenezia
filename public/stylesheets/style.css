@@ -145,6 +145,11 @@ li:hover {
   font-weight: bold;
 }
 
+#reviews > a {
+  position: relative;
+  left: -7em;
+}
+
 .title {
   color: firebrick;
 }
