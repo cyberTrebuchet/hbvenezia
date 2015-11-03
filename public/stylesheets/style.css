@@ -168,8 +168,14 @@ li:hover {
   color: orange;
 }
 
+#story-title {
+  text-align: left;
+  margin-left: 15.3em;
+}
+
 .story-title {
   text-align: left;
+  margin-left: 18em;
 }
 
 .title {
