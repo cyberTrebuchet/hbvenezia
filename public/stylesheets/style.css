@@ -219,3 +219,9 @@ p {
 #privacy > p {
   margin-left: 2em;
 }
+
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
+  body {
+    -webkit-text-size-adjust:none;
+  }
+}
