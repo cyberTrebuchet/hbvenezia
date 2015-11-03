@@ -145,13 +145,31 @@ li:hover {
   font-weight: bold;
 }
 
-#reviews > a {
+#reviews {
+  background-image: url(/images/hb_waterside.jpg);
+  background-size: cover;
+  height: 6em;
+  width: 24em;
+  margin: auto;
   position: relative;
-  left: -7em;
+  left: -3px;
+}
+
+#reviews > a {
+  color: gold;
+  text-shadow: -1px -1px 1px goldenrod, 1px 1px 1px black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  left: -0.5em;
+}
+
+#reviews > a:hover {
+  color: orange;
 }
 
 #story-title {
-  font-size: 20px
+  font-size: 20px;
 }
 
 .title {
