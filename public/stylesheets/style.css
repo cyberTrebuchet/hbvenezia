@@ -188,19 +188,19 @@ li:hover {
   background-image: url(/images/harrys_bar_front_mgh2.jpg);
   background-size: contain;
   width: 15em;
-}
-
-#reflections > a {
-  position: relative;
-  top: 17em;
   text-align: center;
   color: gold;
   text-shadow: -1px -1px 1px goldenrod, 1px 1px 1px black;
   letter-spacing: 1px;
 }
 
-#reflections > a:hover {
+#reflections:hover {
   color: orange;
+}
+
+#reflections > span {
+  position: relative;
+  top: 17em;
 }
 
 p {
