@@ -84,7 +84,7 @@ a:hover {
 #frontdoor {
   display: inline-block;
   float: left;
-  height: 16em;
+  height: 17em;
   margin: 1em;
 }
 
@@ -114,7 +114,7 @@ a:hover {
   background-image: url(/images/bar-bg.jpg);
   float: right;
   width: 15em;
-  height: 16em;
+  height: 16.5em;
 }
 
 .audio-icon {
