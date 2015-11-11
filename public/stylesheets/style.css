@@ -97,7 +97,7 @@ a:hover {
 #info {
   display: inline-block;
   position: relative;
-  top: -1.25em;
+  top: -1.5em;
   font-size: 13px;
   font-weight: bold;
 }
@@ -116,13 +116,14 @@ a:hover {
 }
 
 #tour {
+  font-family: Arial;
+  font-size: 14px;
   margin-left: 1em;
   display: inline-block;
   position: relative;
-  top: -2em;
+  top: -2.3em;
   background-image: url(/images/bar-bg.jpg);
-  height: 16.25em;
-  width: 14em;
+  width: 16em;
 }
 
 .audio-icon {
@@ -138,7 +139,7 @@ ul {
 }
 
 li {
-  padding-bottom: 7px;
+  margin-bottom: 0.75em;
   text-shadow: 2px 2px black;
 }
 
