@@ -76,24 +76,29 @@ a:hover {
 }
 
 .dotline {
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+
+#dotline2{
   position: relative;
-  left: -7em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: auto;
+  top: -0.5em;
 }
 
 #frontdoor {
   display: inline-block;
-  float: left;
-  height: 17em;
+  height: 16.25em;
   margin: 1em;
 }
 
 #info {
   display: inline-block;
+  position: relative;
+  top: -1em;
   font-size: 14px;
   font-weight: bold;
-  float: center;
 }
 
 .attr {
@@ -110,12 +115,13 @@ a:hover {
 }
 
 #tour {
-  margin-right: 1em;
+  margin-left: 1em;
   display: inline-block;
+  position: relative;
+  top: -2em;
   background-image: url(/images/bar-bg.jpg);
-  float: right;
-  width: 15em;
-  height: 16.5em;
+  height: 16.25em;
+  width: 14em;
 }
 
 .audio-icon {
