@@ -1,7 +1,8 @@
 'use strict';
 
 var express = require('express');
-var router = express.Router();
+var router  = express.Router();
+var fs      = require('fs');
 
 /* GET home page. */
 router
@@ -25,6 +26,25 @@ router
     desc: 'Harry\'s Bar Venezia unofficial site'
   }
   res.render('privacy', titles);
+})
+.get('/sitemap.xml', function(req, res, next){
+  var options = {
+    root: __dirname + '/public/',
+    dotfiles: 'deny',
+    headers: {
+        'x-timestamp': Date.now(),
+        'x-sent': true
+    }
+  };
+  res.sendFile('/sitemap.xml', options, function (err) {
+    if (err) {
+      console.log(err);
+      res.status(err.status).end();
+    }
+    else {
+      console.log('Sent:', '/public/sitemap.xml');
+    }
+  });
 });
 
 module.exports = router;
