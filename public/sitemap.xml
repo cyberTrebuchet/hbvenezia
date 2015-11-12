@@ -84,6 +84,10 @@
        <image:caption>Harry's Bar exterior in daylight</image:caption>
     </image:image>
     <image:image>
+       <image:loc>https://www.harrysbarvenezia.com/images/hemingway_cipriani.jpg</image:loc>
+       <image:caption>Ernest Hemingway and Giuseppe Cipriani raise a glass</image:caption>
+    </image:image>
+    <image:image>
        <image:loc>https://www.harrysbarvenezia.com/images/meetarrigo.jpg</image:loc>
        <image:caption>Meet Arrigo Cipriani</image:caption>
     </image:image>
