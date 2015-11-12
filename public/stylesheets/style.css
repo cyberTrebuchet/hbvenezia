@@ -192,25 +192,6 @@ li:hover {
   color: firebrick;
 }
 
-#reflections {
-  background-image: url(/images/harrys_bar_front_mgh2.jpg);
-  background-size: contain;
-  width: 15em;
-  text-align: center;
-  color: gold;
-  text-shadow: -1px -1px 1px goldenrod, 1px 1px 1px black;
-  letter-spacing: 1px;
-}
-
-#reflections:hover {
-  color: orange;
-}
-
-#reflections > span {
-  position: relative;
-  top: 17em;
-}
-
 p {
   font-family: arial;
   font-size: 18px;
@@ -241,9 +222,24 @@ p {
   text-align: center;
 }
 
-#reflections-left {
-  padding: 2.5em;
-  float: left;
+#reflections {
+  background-image: url(/images/harrys_bar_front_mgh2.jpg);
+  background-size: contain;
+  width: 14em;
+  height: 18.7em;
+  text-align: center;
+  color: gold;
+  text-shadow: -1px -1px 1px goldenrod, 1px 1px 1px black;
+  letter-spacing: 1px;
+}
+
+#reflections:hover {
+  color: orange;
+}
+
+#reflections > span {
+  position: relative;
+  top: 16em;
 }
 
 #graham-front {
