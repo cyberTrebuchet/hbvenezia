@@ -248,6 +248,11 @@ p {
   top: 16em;
 }
 
+#reflections-left {
+  padding: 2.5em;
+  float: left;
+}
+
 #graham-front {
   height: 20em;
 }
