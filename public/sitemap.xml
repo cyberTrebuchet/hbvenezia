@@ -5,7 +5,7 @@
   <url> 
     <loc>http://www.harrysbarvenezia.com</loc>
     <lastmod>2015-11-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>http://www.harrysbarvenezia.com/images/arrigo-harrys.jpg</image:loc>
@@ -95,7 +95,7 @@
       <image:caption>Meet Arrigo Cipriani</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://www.harrysbarvenezia.com/images/original_barroom.jpg</image:loc>
+      <image:loc>http://www.harrysbarvenezia.com/images/mybar_story.jpg</image:loc>
       <image:caption>Harry's Bar original barroom layout and design</image:caption>
     </image:image>
     <image:image>
